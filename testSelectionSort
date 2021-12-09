@@ -32,6 +32,7 @@ testDuplicates();
         Sortedarr[3] = 9;
         Sortedarr[4] = 10;
 
+
       /** add tests to check for this unit test **/
     }
 
@@ -84,5 +85,6 @@ testDuplicates();
 
 			 sortthis = usethis.basicSelectionSort(arr);
 			 assertArrayEquals(Sortedarr, sortthis);/** Test data contains duplicates **/
+
     }
 }
